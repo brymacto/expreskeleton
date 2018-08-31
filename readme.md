@@ -6,4 +6,7 @@ A walking skeleton example of an Express app with a React front end.
 * `yarn install`
 
 ## Running Kanpress in development mode
-* `yarn start`
+* In root directory: `yarn start`
+  * Express server will run on port `3001` by default
+* In `client` directory: `yarn start`
+  * Client will run on port `3000` by default
