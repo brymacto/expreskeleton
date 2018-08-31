@@ -1,6 +1,9 @@
 {
   "extends": "airbnb",
   "rules": {
-    "no-unused-vars": [2, {"args": "after-used", "argsIgnorePattern": "^_"}]
+    "no-unused-vars": [2, {"args": "after-used", "argsIgnorePattern": "^_"}],
+    "react/jsx-filename-extension": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/prefer-stateless-function": 0
   }
 }
